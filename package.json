@@ -1,0 +1,15 @@
+{
+  "name": "iot-railstation-software",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Heinke Hamjediers",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "electron main.js"
+  },
+  "devDependencies": {
+    "electron": "^43.3.0"
+  }
+}
