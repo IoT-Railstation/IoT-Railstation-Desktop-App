@@ -7,9 +7,12 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "electron main.js"
+    "dev": "electron src/main.js"
   },
   "devDependencies": {
     "electron": "^43.3.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
   }
 }
